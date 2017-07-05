@@ -1,0 +1,1080 @@
+[ 2017-07-01T01:00:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-07-01T01:01:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-07-01T01:02:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-07-01T01:03:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-07-01T01:04:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-07-01T01:05:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-07-01T01:06:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-07-01T01:07:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-07-01T01:08:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-07-01T01:09:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-07-01T01:10:02+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-07-01T01:11:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-07-01T01:12:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-07-01T01:13:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-07-01T01:14:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2017-07-01T01:15:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-07-01T01:16:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-07-01T01:17:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-07-01T01:18:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-07-01T01:19:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-07-01T01:20:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-07-01T01:21:02+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-07-01T01:22:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-07-01T01:23:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-07-01T01:24:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-07-01T01:25:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-07-01T01:26:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2017-07-01T01:27:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-07-01T01:28:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-07-01T01:29:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-07-01T01:30:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-07-01T01:31:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-07-01T01:32:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-07-01T01:33:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-07-01T01:34:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-07-01T01:35:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-07-01T01:36:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-07-01T01:37:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2017-07-01T01:38:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-07-01T01:39:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2017-07-01T01:40:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-07-01T01:41:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-07-01T01:42:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-07-01T01:43:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-07-01T01:44:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-07-01T01:45:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-07-01T01:46:02+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-07-01T01:47:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-07-01T01:48:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-07-01T01:49:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-07-01T01:50:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-07-01T01:51:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-07-01T01:52:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-07-01T01:53:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-07-01T01:54:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-07-01T01:55:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-07-01T01:56:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2017-07-01T01:57:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-07-01T01:58:02+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-07-01T01:59:01+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /data/wwwroot/default/ThinkPHP/Library/Think/App.class.php 第 31 行.
+NOTIC: [8] Undefined index: REQUEST_URI /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /data/wwwroot/default/ThinkPHP/Library/Think/Dispatcher.class.php 第 191 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/wwwroot/default/Application/Common/Model/BasicModel.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+NOTIC: [2] Illegal string offset 'dumpmysql' /data/wwwroot/default/Application/Admin/Controller/CronController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+

@@ -1,0 +1,39 @@
+<include file="Index/header" />
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-9">
+        
+        <div class="news-list">
+          <volist name="result['listNews']" id="vo">
+            <dl>
+              <a target="_blank" href="/index.php?c=detail&id={$vo.news_id}"><dt>{$vo.title}</dt></a>
+                <dd class="news-img">
+                  <a target="_blank" href="/index.php?c=detail&id={$vo.news_id}"><img width="200" height="120" src="{$vo.thumb}" alt="{$vo.title}"></a>
+                </dd>
+                <dd class="news-intro">
+                  {$vo.description}
+                </dd>
+                <dd class="news-info">
+                  {$vo.keywords} <span>{$vo.create_time|date="y-m-d h:i:s",###}</span> 阅读(1万)
+                </dd>
+            </dl>
+          </volist>
+          
+        <nav>
+                        <ul class="pagination">
+                            {$result['pageres']}
+                        </ul>
+                    </nav>
+
+        </div>
+        
+      </div>
+      
+      <!--网站右侧信息-->
+      <include file="Index/right" />
+    </div>
+  </div>
+</section>
+</body>
+</html>

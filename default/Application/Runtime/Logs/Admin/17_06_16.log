@@ -1,0 +1,1277 @@
+[ 2017-06-16T03:57:50+08:00 ] ::1 /admin.php?c=menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+NOTIC: [2] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/MenuController.class.php 第 5 行.
+NOTIC: [2] Declaration of Admin\Controller\MenuController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/MenuController.class.php 第 5 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/MenuController.class.php 第 47 行.
+NOTIC: [8] Undefined index: pageSize /Applications/MAMP/htdocs/Application/Admin/Controller/MenuController.class.php 第 48 行.
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id desc LIMIT 0,3   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0014s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/b956215329b6f9aca22277599a4efdfc.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002442s ]
+
+[ 2017-06-16T03:57:52+08:00 ] ::1 /admin.php?c=menu&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [2] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/MenuController.class.php 第 5 行.
+NOTIC: [2] Declaration of Admin\Controller\MenuController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/MenuController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-06-16T04:51:53+08:00 ] ::1 /admin.php?c=content&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 27 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 33 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY listorder desc, news_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001606s ]
+
+[ 2017-06-16T04:51:58+08:00 ] ::1 /admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2017-06-16T04:52:03+08:00 ] ::1 /admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2017-06-16T04:52:08+08:00 ] ::1 /admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-06-16T05:20:58+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_admin` WHERE `status` = 1 AND `lastlogintime` > 1497542400 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Illegal string offset 'tp_count' /Applications/MAMP/htdocs/Application/Common/Model/AdminModel.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.1594s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.406001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.406141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013025s ]
+
+[ 2017-06-16T05:20:59+08:00 ] ::1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0465s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_admin` WHERE `status` = 1 AND `lastlogintime` > 1497542400 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal string offset 'tp_count' /Applications/MAMP/htdocs/Application/Common/Model/AdminModel.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2017-06-16T05:21:02+08:00 ] ::1 /admin.php?c=content&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 27 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 33 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY listorder desc, news_id desc LIMIT 0,10   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001845s ]
+
+[ 2017-06-16T05:21:03+08:00 ] ::1 /admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002149s ]
+
+[ 2017-06-16T05:21:06+08:00 ] ::1 /admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0558s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001864s ]
+
+[ 2017-06-16T05:21:09+08:00 ] ::1 /admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-06-16T05:21:14+08:00 ] ::1 /admin.php?c=content&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 27 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 33 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY listorder desc, news_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2017-06-16T05:21:17+08:00 ] ::1 /admin.php?c=content&a=edit&id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=23 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Common\Model\NewsContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=23 ) LIMIT 1   [ RunTime:0.0109s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2017-06-16T05:21:19+08:00 ] ::1 /admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-06-16T05:21:48+08:00 ] ::1 /admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: UPDATE `cms_news` SET `title`='重庆美女球迷争芳斗艳',`small_title`='重庆美女球迷争芳斗艳',`thumb`='/upload/2017/06/16/5942fa4fe927e.png',`title_font_color`='',`catid`='3',`copyfrom`='0',`description`='重庆美女球迷争芳斗艳',`keywords`='重庆美女 球迷 争芳斗艳',`update_time`='1497561708' WHERE ( news_id=23 ) [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Common\Model\NewsContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0031s ]
+SQL: UPDATE `cms_news_content` SET `content`='&lt;p&gt;
+	&lt;span style=&quot;color:#666666;font-family:\'Microsoft Yahei\', 微软雅黑, SimSun, 宋体, \'Arial Narrow\', serif;font-size:14px;line-height:28px;background-color:#FFFFFF;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 2016年3月13日，2016年中超联赛第2轮：重庆力帆vs河南建业，主场美女球迷争芳斗艳。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;color:#666666;font-family:\'Microsoft Yahei\', 微软雅黑, SimSun, 宋体, \'Arial Narrow\', serif;font-size:14px;line-height:28px;background-color:#FFFFFF;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;',`update_time`='1497561708' WHERE ( news_id=23 ) [ RunTime:0.0114s ]
+
+[ 2017-06-16T05:21:52+08:00 ] ::1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 27 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 33 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY listorder desc, news_id desc LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002705s ]
+
+[ 2017-06-16T08:12:03+08:00 ] ::1 /admin.php?c=content&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0033s ]
+SQL: UPDATE `cms_news` SET `status`='-1' WHERE ( news_id=21 ) [ RunTime:0.0005s ]
+
+[ 2017-06-16T08:12:04+08:00 ] ::1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 27 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0164s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 33 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY listorder desc, news_id desc LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002513s ]
+
+[ 2017-06-16T08:12:07+08:00 ] ::1 /admin.php?c=position&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [2] Declaration of Admin\Controller\PositionController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/PositionController.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2017-06-16T08:12:07+08:00 ] ::1 /admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: position_id /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 18 行.
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 25 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 2 ORDER BY listorder desc,id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: position_id /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/b8a8b9d170e6c07d7b463ea02385894d.php 第 113 行.
+NOTIC: [8] Undefined variable: position_id /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/b8a8b9d170e6c07d7b463ea02385894d.php 第 113 行.
+NOTIC: [8] Undefined variable: position_id /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/b8a8b9d170e6c07d7b463ea02385894d.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-06-16T08:12:11+08:00 ] ::1 /admin.php?position_id=2&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 25 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 2 ORDER BY listorder desc,id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2017-06-16T08:12:14+08:00 ] ::1 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0039s ]
+SQL: UPDATE `cms_position_content` SET `status`='-1' WHERE ( id=28 ) [ RunTime:0.0005s ]
+
+[ 2017-06-16T08:12:15+08:00 ] ::1 /admin.php?position_id=2&c=positioncontent&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0009s ]
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 25 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 2 ORDER BY listorder desc,id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2017-06-16T08:12:18+08:00 ] ::1 /admin.php?c=content&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 27 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 33 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY listorder desc, news_id desc LIMIT 0,10   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2017-06-16T08:12:44+08:00 ] ::1 /admin.php?c=content&a=push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('23')  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant news - assumed 'news' /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 160 行.
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0055s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','重庆美女球迷争芳斗艳','/upload/2017/06/16/5942fa4fe927e.png','23','1','1497571964') [ RunTime:0.0006s ]
+
+[ 2017-06-16T08:12:45+08:00 ] ::1 /admin.php?c=content&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 27 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 33 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY listorder desc, news_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-06-16T08:12:47+08:00 ] ::1 /admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: position_id /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 18 行.
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 25 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 2 ORDER BY listorder desc,id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: position_id /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/b8a8b9d170e6c07d7b463ea02385894d.php 第 113 行.
+NOTIC: [8] Undefined variable: position_id /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/b8a8b9d170e6c07d7b463ea02385894d.php 第 113 行.
+NOTIC: [8] Undefined variable: position_id /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/b8a8b9d170e6c07d7b463ea02385894d.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-06-16T08:13:28+08:00 ] ::1 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0562s ]
+SQL: UPDATE `cms_position_content` SET `status`='-1' WHERE ( id=34 ) [ RunTime:0.0005s ]
+
+[ 2017-06-16T08:13:29+08:00 ] ::1 /admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0551s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: position_id /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 18 行.
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 25 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 2 ORDER BY listorder desc,id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: position_id /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/b8a8b9d170e6c07d7b463ea02385894d.php 第 113 行.
+NOTIC: [8] Undefined variable: position_id /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/b8a8b9d170e6c07d7b463ea02385894d.php 第 113 行.
+NOTIC: [8] Undefined variable: position_id /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/b8a8b9d170e6c07d7b463ea02385894d.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-06-16T08:13:43+08:00 ] ::1 /admin.php?c=positioncontent&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/PositioncontentController.class.php 第 6 行.
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-06-16T08:13:55+08:00 ] ::1 /admin.php?c=content&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 27 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 33 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY listorder desc, news_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0008s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2017-06-16T08:13:57+08:00 ] ::1 /admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2017-06-16T08:14:06+08:00 ] ::1 /admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: news_id /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 63 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0034s ]
+SQL: INSERT INTO `cms_news` (`title`,`small_title`,`thumb`,`title_font_color`,`catid`,`copyfrom`,`description`,`keywords`,`create_time`,`username`) VALUES ('ff','ff','','#5674ed','3','0','f','f','1497572046','admin') [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Common\Model\NewsContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0034s ]
+SQL: INSERT INTO `cms_news_content` (`content`,`news_id`,`create_time`) VALUES ('ff','25','1497572046') [ RunTime:0.0096s ]
+
+[ 2017-06-16T08:14:08+08:00 ] ::1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 27 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0168s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 33 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY listorder desc, news_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2017-06-16T08:14:13+08:00 ] ::1 /admin.php?c=content&a=push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0984s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('25')  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant news - assumed 'news' /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 160 行.
+NOTIC: [2] Declaration of Common\Model\PositionContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionContentModel.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0034s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','ff','','25','1','1497572053') [ RunTime:0.0004s ]
+
+[ 2017-06-16T08:14:14+08:00 ] ::1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 27 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0574s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 33 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY listorder desc, news_id desc LIMIT 0,10   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: status /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/PositionModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2017-06-16T08:25:22+08:00 ] ::1 /admin.php?c=content&a=edit&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Common\Model\NewsContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0065s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2017-06-16T08:25:30+08:00 ] ::1 /admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-06-16T10:06:40+08:00 ] ::1 /admin.php?c=content&a=edit&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Declaration of Common\Model\NewsContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0105s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001783s ]
+
+[ 2017-06-16T10:06:44+08:00 ] ::1 /admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-06-16T10:21:14+08:00 ] ::1 /admin.php?c=content&a=edit&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Common\Model\NewsContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0055s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003217s ]
+
+[ 2017-06-16T10:21:21+08:00 ] ::1 /admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-06-16T10:32:11+08:00 ] ::1 /admin.php?c=content&a=edit&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Common\Model\NewsContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0072s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2017-06-16T10:32:15+08:00 ] ::1 /admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: res /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 36 行.
+
+[ 2017-06-16T10:38:57+08:00 ] ::1 /admin.php?c=content&a=edit&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003127s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') /Applications/MAMP/htdocs/Application/Admin/Controller/ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [2] Declaration of Common\Model\NewsContentModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0186s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) /Applications/MAMP/htdocs/Application/Common/Model/MenuModel.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000752s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005779s ]
+
+[ 2017-06-16T10:39:03+08:00 ] ::1 /admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004921s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' /Applications/MAMP/htdocs/Application/Common/Model/UploadImageModel.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+

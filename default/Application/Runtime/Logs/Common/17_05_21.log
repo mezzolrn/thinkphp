@@ -1,0 +1,36 @@
+[ 2017-05-21T01:25:37+08:00 ] 172.16.67.45 /index.php?m=&&m=adminl&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Adminl
+
+[ 2017-05-21T01:26:37+08:00 ] 172.16.67.45 /index.php?m=adminl&c=login&a=loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Adminl
+
+[ 2017-05-21T01:26:54+08:00 ] 172.16.67.45 /index.php?m=adminl&c=login&a=loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Adminl
+
+[ 2017-05-21T01:27:23+08:00 ] 172.16.67.45 /index.php?m=3&&m=3&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:3
+
+[ 2017-05-21T01:27:27+08:00 ] 172.16.67.45 /index.php?m=admin&&m=3&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载模块:3
+
+[ 2017-05-21T01:34:34+08:00 ] 172.16.67.45 /index.php?m=adminc=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+ERR: 无法加载模块:Adminc=login
+
